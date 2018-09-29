@@ -1,0 +1,357 @@
+.nav-tabs li a {
+    color: #777;
+}
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #29B81F;
+    border: 0;
+    font-size: 13px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+}
+.navbar li a, .navbar .navbar-brand { 
+    color: #fff !important;
+}
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+.navbar-nav li.active a {
+    color: #29B81F !important;
+    background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+#carouselBg h4 {
+  font-size: 16px !important;
+  letter-spacing: 2px;
+  font-family: Montserrat, sans-serif;
+  line-height: 1.375em;
+  color: #aaa;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+#Services h4 {
+  font-size: 16px !important;
+  letter-spacing: 2px;
+  font-family: Montserrat, sans-serif;
+  line-height: 1.375em;
+  color: #aaa;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+.borderDash{
+    //border: 2px dotted #f4511e; 
+}
+
+#carouselBg{
+    background: url(../images/cars/2.jpg);
+    background-size: cover;
+    image-resolution: normal;
+    background-attachment: fixed;
+}
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    #carouselBg {
+        background-attachment: scroll;
+    }
+}
+
+#carouselBg h1{
+    font-family: 'Abril Fatface';
+    text-align: center;
+    font-size: 7vw;
+    color: whitesmoke;
+    letter-spacing: 5px;
+    line-height: 1.375em;
+    font-weight: bold;
+    padding-top: 18%;
+    padding-bottom: 22%;
+    position: relative;
+    top: -150px;
+    animation: headingComing 2s ease 1 forwards;
+}
+@keyframes headingComing{
+    from {opacity:0; top:-150px;}
+    to {opacity:1; top:10px;}
+}
+
+#Services, #Features{
+    padding-top: 7%;
+    margin-bottom: 10%;
+}
+
+#Services .row{
+    padding-bottom: 7%;
+}
+
+@media (max-width: 500px) {
+    #Services h4 {
+      font-size: 12px !important;
+      letter-spacing: 2px;
+      font-family: Montserrat, sans-serif;
+      line-height: 1.375em;
+      color: #aaa;
+      font-weight: 600;
+      margin-bottom: 30px;
+    }
+}
+
+
+#Features .row{
+    padding-bottom: 1.5%;
+}
+
+#Features h4{
+  font-size: 16px !important;
+  letter-spacing: 2px;
+  font-family: Montserrat, sans-serif;
+  line-height: 1.375em;
+  color: #aaa;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+#Gallery{
+    padding-top: 5%;
+    margin-bottom: 10%;
+}
+
+#Reviews{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+}
+
+.quote{
+    font-family: Montserrat, sans-serif;
+    color: #29B81F;
+    font-size: 32px !important;
+    font-weight: bold;
+    letter-spacing: 4px;
+    opacity: 0.9;
+    //text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    //text-shadow: 1px 1px 2px #aaa, 0 0 25px #aaa, 0 0 5px #aaa;
+}
+
+.userPara h3{
+    margin-top: 3%;
+    font-family: Montserrat, sans-serif;
+    font-size: 24px !important;
+    letter-spacing: 3px;
+    opacity: 0.7;
+    border: 3px solid #29b81f;
+    border-radius: 5px;
+    padding: 2%;
+    line-height: 150%;
+    background: #fff;
+    box-shadow: 10px 10px 30px rgba(0,0,0, .7);
+}
+
+#quoteCarousel{
+    padding-top: 1%;
+}
+
+.userReview{
+    padding: 2%;
+}
+
+.userReview .userImg{
+    margin-top: 10%;
+    border-radius: 15px;
+    border : 2px solid #fff;
+    box-shadow: 5px 5px 15px rgba(0,0,0, .8);
+}
+
+.userReview h3{
+    font-family: Montserrat, sans-serif;
+    font-size: 18px !important;
+    letter-spacing: 3px;
+    font-weight: bold;
+    opacity: 0.9;   
+}
+
+.userReview p{
+    padding-top: 3%;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px !important;
+    letter-spacing: 3px;
+    opacity: 0.8;   
+}
+
+.userReview .userQuote{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.userReview p span{
+    padding: 0.8%;
+    font-size: x-large;
+    color: #29B81F;
+}
+
+#About{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 10%;    
+}
+
+.teamMember .person{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: 4px solid #29b81f;
+    box-shadow: 0px 10px 30px rgba(0,0,0, 0.9);
+}
+
+.teamMember h3{
+    padding-top: 3%;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    font-size: 20px !important;
+    letter-spacing: 2px;
+    opacity: 0.9;  
+    color: rgba(41, 184, 31, 1);
+    text-shadow: -1px 0 rgba(0,0,0,0.6), 0 1px rgba(0,0,0,0.4), 1px 0 rgba(0,0,0,0.2), 0 -1px rgba(0,0,0,0);
+}
+
+.teamMember h4 {
+  font-size: 16px !important;
+  letter-spacing: 2px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  line-height: 1.375em;
+  color: #aaa;
+}
+
+.teamMember h5 {
+  font-size: 16px !important;
+  letter-spacing: 3px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  color: #aaa;
+  
+}
+span .socialLogo{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%); /* make all photos black and white */ 
+    padding: 8px 10px 8px 10px;
+    transition: -webkit-filter 0.5s;
+    transition: filter 1s;
+}
+
+span .socialLogo:hover{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%); /* make all photos black and white */ 
+}
+
+
+.aboutHm{
+    margin-bottom: 3%;
+    padding-bottom: 2%;
+}
+.aboutHm .simpleBorder{
+    background: #fafafa;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    border : 1px solid rgba(41,184,31,0.5);
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.4);
+}
+.aboutHm .fa{
+    color: #29B81F;
+    font-size: 4em;
+}
+.aboutHm p{
+    margin-top: 2%;
+    font-size: 16px !important;
+    letter-spacing: 2px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    color: #aaa;
+}
+
+#Contact{
+    padding-top: 5%;
+    padding-bottom: 5%;       
+}
+
+#Contact h4{
+    font-size: 24px !important;
+    letter-spacing: 3px;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.375em;
+    color: rgba(0,0,0,0.6);
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.addressPart iframe{
+    height: 370px;
+    width: 100%;
+}
+
+.contactDetails span{
+    color: #29B81F;
+    font-size: 20px;
+}
+.contactDetails a{
+    text-decoration: none;
+    color: #aaa;
+}
+.contactDetails p, .contactDetails a{
+    font-size: 14px !important;
+    letter-spacing: 2px;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.5em;
+    color: rgba(0,0,0,0.6);
+    font-weight: bold;
+}
+
+
+.xsH3{
+  letter-spacing: 2px;
+  font-family: Montserrat, sans-serif;
+  line-height: 1.375em;
+  color: #aaa;
+  font-weight: 650;
+  margin-bottom: 5%;
+}
+
+#footIt{
+    background: rgba(0,0,0,0.9);
+    padding-top: 2%;
+}
+
+#footIt h4,p{
+  letter-spacing: 1px;
+  font-family: Montserrat, sans-serif;
+  color: #aaa;
+}
+
+#footIt h4{
+    font-weight: bold;
+}
+
+#footIt a{
+   color: #ffffff;
+   font-weight: bold;
+   letter-spacing: 1px;
+   font-family: Montserrat, sans-serif;   
+}
+
+#footIt .copywright{
+    padding-top: 3%;
+}
+#footIt .copywright p{
+    font-weight: bold;
+}
